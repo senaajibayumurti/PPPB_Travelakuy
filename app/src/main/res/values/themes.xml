@@ -2,29 +2,29 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.PPAPBTravelakuy" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_2</item>
+        <item name="colorPrimary">@color/blue_2</item>
         <item name="colorPrimaryVariant">@color/purple_3</item>
         <item name="colorOnPrimary">@color/purple_4</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/purple_2</item>
+        <item name="colorSecondary">@color/blue_2</item>
         <item name="colorSecondaryVariant">@color/purple_3</item>
         <item name="colorOnSecondary">@color/purple_4</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">@color/purple_2</item>
+        <item name="android:statusBarColor">@color/blue_2</item>
         <item name="android:textColorPrimary">@color/white</item>
         <!-- Customize your theme here. -->
     </style>
     <style name="Theme.Base.Theme.PPAPBTravelakuy.WithActionBar" parent="Theme.MaterialComponents.DayNight">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_2</item>
+        <item name="colorPrimary">@color/blue_2</item>
         <item name="colorPrimaryVariant">@color/purple_3</item>
         <item name="colorOnPrimary">@color/purple_4</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/purple_2</item>
+        <item name="colorSecondary">@color/blue_2</item>
         <item name="colorSecondaryVariant">@color/purple_3</item>
         <item name="colorOnSecondary">@color/purple_4</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">@color/purple_2</item>
+        <item name="android:statusBarColor">@color/blue_2</item>
         <item name="android:textColorPrimary">@color/white</item>
 
         <item name="android:fontFamily">@font/poppins_bold</item>
@@ -67,7 +67,7 @@
 
     <!--    For Hyperlink Text-->
     <style name="customTextViewHyperlinkText" parent="Widget.AppCompat.TextView">
-        <item name="android:textColor">@color/purple_2</item>
+        <item name="android:textColor">@color/blue_2</item>
     </style>
 
     <style name="botnav_text">

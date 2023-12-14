@@ -17,6 +17,12 @@
     <string name="hyperlink_condition">
         <u>Condition</u>
     </string>
+    <string name="online_status">
+        Berhasil terhubung dengan internet
+    </string>
+    <string name="offline_status">
+        Tidak ada koneksi internet
+    </string>
     <string name="title_activity_home_fragment">HomeFragment</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,29 +8,44 @@
     tools:context=".usermenu.MainActivity">
 
     <fragment
-        android:id="@+id/nav_host_fragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+
+        android:id="@+id/nav_host_fragment"
         android:name="androidx.navigation.fragment.NavHostFragment"
         app:defaultNavHost="true"
+
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/botnav_usermen"
+        app:layout_constraintBottom_toTopOf="@id/botnav_usermenu"
         app:navGraph="@navigation/botnav_usermenu" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/botnav_usermen"
+        android:layout_height="72dp"
+        android:layout_gravity="bottom"
+
+        android:id="@+id/botnav_usermenu"
+        android:background="@color/white"
+        app:menu="@menu/bottom_navigation_menu"
         app:itemIconTint="@color/black"
         app:itemTextColor="?attr/colorPrimary"
-        android:background="@color/white"
         app:itemTextAppearanceActive="@style/botnav_text"
         app:itemTextAppearanceInactive="@style/botnav_text"
-        app:itemRippleColor="#00000000"
-        android:layout_gravity="bottom"
+        app:itemRippleColor="@color/blue_1"
         app:itemActiveIndicatorStyle="@style/App.Custom.Indicator"
-        app:menu="@menu/bottom_navigation_menu"
 
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintBottom_toTopOf="@id/tv_online_status"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/tv_online_status"
+        android:text="@string/offline_status"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@color/black"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
