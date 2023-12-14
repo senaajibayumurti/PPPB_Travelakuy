@@ -21,7 +21,7 @@
         Berhasil terhubung dengan internet
     </string>
     <string name="offline_status">
-        Tidak ada koneksi internet
+        Tidak terhubung dengan internet
     </string>
     <string name="title_activity_home_fragment">HomeFragment</string>
     <string name="title_home">Home</string>
