@@ -30,9 +30,9 @@
 ## Tambahan:
 - **Online / Offline Status:**
   - Ketika aplikasi tidak terhubung dengan internet, aplikasi akan menampilkan teks di bawah bottom navigation "@string/offline_status" dengan background warna "@color/danger" yang akan selalau ditampilkan **selama aplikasi tidak terhubung dengan internet**
-  - Saat kondisi offline maka semua data baru inputan user akan disimpan sementara di Room
+  - Saat kondisi offline maka semua data baru inputan admin akan disimpan sementara di Room
   - Ketika berhasil terhubung dengan internet, aplikasi akan menampilkan teks "@string/online_status" dan background warna "@color/success" namun setelah satu detik, text view yang menampilkan online/offline status visibilitynya diubah menjadi gone
-  - Saat kembali online, semua data baru user yang ada di Room, diunggah ke Firestore database.
+  - Saat kembali online, semua data baru admin yang ada di Room, diunggah ke Firestore database.
 
 - **Notifikasi:**
   - Setelah user berhasil memesan tiket, tampilkan notifikasi bahwa pemesanan berhasil.
