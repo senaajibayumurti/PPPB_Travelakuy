@@ -34,19 +34,6 @@
         app:itemRippleColor="@color/blue_1"
         app:itemActiveIndicatorStyle="@style/App.Custom.Indicator"
 
-        app:layout_constraintBottom_toTopOf="@id/tv_online_status"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:visibility="visible"
-
-        android:id="@+id/tv_online_status"
-        android:text="@string/offline_status"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:background="@color/danger"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
