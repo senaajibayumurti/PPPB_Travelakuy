@@ -9,7 +9,6 @@
         android:strokeColor="@color/danger"
         android:strokeWidth="3"
         android:strokeLineJoin="round"
-        android:strokeDashArray="10 10"
         android:pathData="M 8 2 L 73 2 Q 79.5 2 79.5 8.5 L 79.5 23.5 Q 79.5 30 73 30 L 8 30 Q 1.5 30 1.5 23.5 L 1.5 8.5 Q 1.5 2 8 2 Z" />
     <path
         android:fillColor="@color/danger"

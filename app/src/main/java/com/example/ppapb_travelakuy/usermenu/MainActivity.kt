@@ -15,6 +15,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val navController = findNavController(R.id.nav_host_fragment)
-        binding.botnavUsermen.setupWithNavController(navController)
+        binding.botnavUsermenu.setupWithNavController(navController)
     }
 }

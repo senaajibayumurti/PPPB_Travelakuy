@@ -80,7 +80,7 @@
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/customRoundedButton"
+            style="@style/customButton1"
 
             android:id="@+id/btn_order"
             android:text="Pesan Sekarang"/>
